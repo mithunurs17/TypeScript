@@ -11,7 +11,7 @@ export function ChaiCard(
         return (
             <article>
             <h2>
-            {name} {isSpecial && <span></span>}
+            {name} {isSpecial && <span>⭐</span>}
             </h2>
             <p>{price}</p>
             </article>
